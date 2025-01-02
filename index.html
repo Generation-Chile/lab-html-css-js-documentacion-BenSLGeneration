@@ -1,36 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cohorte 17 - Fullstack Developers</title>
-  <link rel="stylesheet" href="css.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
 </head>
 <body>
-  <header>
-  </header>
-  <section id="cta">
-    <h1>¡Full Stack <span class="travel">Developers!</span></h1>
-    <h2>Únete a nuestro equipo</h2>
-    <p>La comunidad de desarrolladores Full Stack Developers!</p>
-    <button id="cta-form">¡Quiero saber más!</button>
-  </section>
-  <section id="form">
-    <h2>Contáctanos para obtener más información sobre nuestra comunidad</h2>
-    <form>
-      <label for="name">Nombre:</label>
-      <input type="text" id="name" name="name" required>
-      <label for="email">Correo electrónico:</label>
-      <input type="email" id="email" name="email" required>
-      <label for="message">Mensaje:</label>
-      <textarea id="message" name="message" required></textarea>
-      <button type="button" onclick="presionarBoton()">Enviar</button>
-    </form>
-  </section>
-  <footer>
-    <p>&copy; 2024 FullStack Developers. Todos los derechos reservados.</p>
-  </footer>
-  <script src="accion.js"></script>
+    <header>
+        <div>
+            
+        </div>
+    </header>
+    <main>
+        <section class="saber-mas">
+            <h1>¡Full Stack <span>Developers!</span></h1>
+            <h2>Únete a nuestro equipo</h2>
+            <p>La comunidad de desarrolladores Full Stack Developers!</p>
+            <button>¡Quiero saber más!</button>
+        </section>
+        <section class="formulario">
+            <h2>Contáctanos para obtener más información sobre nuestra comunidad</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" placeholder=" Escribe tu nombre:" required>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" name="email" id="email" placeholder=" Escribe tu email:" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea name="mensaje" id="mensaje" placeholder=" Escribe tu mensaje:" required></textarea>
+                <button type="button" onclick="presionarBoton()">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 FullStack Developers. Todos los derechos reservados.</p>
+    </footer>
+    <script src="javascript/index.js"></script>
 </body>
 </html>

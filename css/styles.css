@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font: 62.5%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1.6rem;
+}
+
+header{
+    display: block;
+    height: 40vh;
+    margin-bottom: 150px;
+        div {
+            background: url(/lab-html-css-js-documentacion-BenSLGeneration/assets/img/banner.png);
+            padding: 50px 0;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+        }
+}
+
+
+.saber-mas {
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+
+
+.saber-mas h1{
+    font-size: 4rem;
+    text-shadow: 2px 2px 2px grey;
+    span {
+        color: #007bff;
+    }
+    
+}
+
+.saber-mas h2 {
+    font-size: 1.5rem;
+}
+
+.saber-mas p {
+    font-size: 1rem;
+}
+
+.saber-mas button {
+    width: 180px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.formulario {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #6abae2b4;
+    padding: 20px;
+}
+
+.formulario h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.formulario form {
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+}
+
+
+.formulario label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.formulario input {
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+}
+
+.formulario textarea {
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 3px;
+    font-style: inherit;
+    height: 50px;
+}
+
+.formulario button {
+    margin: 0 auto;
+    width: 50%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 36px 0;
+    width: 100%;
+    font-size: 1rem;
+}
