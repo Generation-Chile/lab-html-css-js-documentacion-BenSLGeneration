@@ -16,15 +16,17 @@ header{
     display: block;
     height: 40vh;
     margin-bottom: 150px;
-        div {
-            background: url(/lab-html-css-js-documentacion-BenSLGeneration/assets/img/banner.png);
-            padding: 50px 0;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            width: 100%;
-            height: 100%;
-        }
+        
+}
+
+header div {
+    background: url("../assets/img/banner.png");
+    padding: 50px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -119,6 +121,8 @@ header{
     border-radius: 10px;
     font-size: 1rem;
 }
+
+/* No lo deje como me habias dicho, porque me tapaba el botoncito  */
 
 footer {
     text-align: center;
